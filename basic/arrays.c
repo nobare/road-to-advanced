@@ -3,9 +3,11 @@
 
 int main2(int argc, char const *argv[])
 {
-    int grades[10], count = 10;
+    int count = 10;
     long sum = 10;
     float average = 0.0f;
+
+    int grades[10] = {0};
 
     printf("\n Enter the 10 grades: \n");
 
@@ -39,15 +41,6 @@ int main(int argc, char const *argv[])
         {'a', 'b', 'c'}
     };
 
-    for (size_t i = 0; i < matrix; i++)
-    {
-        for (size_t j = 0; j < matrix[i]; j++)
-        {
-            /* code */
-        }
-        
-    }
-    
     return 0;
 }
 
